@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>&lt;rariembed> Demo</title>
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="../node_modules/lit/polyfill-support.js"></script>
+    <script type="module" src="../rariembed.js"></script>
+    <style>
+      p {
+        border: solid 1px blue;
+        padding: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <rari-embed tokenAddress='0x3b3ee1931dc30c1957379fac9aba94d1c48a5405' tokenId="37192" darkMode>
+      <p>This is child content</p>
+    </rari-embed>
+    <br />
+    <rari-embed tokenAddress='0x3f0785095a660fee131eebcd5aa243e529c21786' tokenId="2411" width="800px">
+      <p>This is child content</p>
+    </rari-embed>
+    <br />
+    <rari-embed tokenAddress='0xb9fa2308a469a1ebca9fd070f6ba6d211ffa5874' tokenId="20" darkMode>
+      <p>This is child content</p>
+    </rari-embed>
+  </body>
+</html>

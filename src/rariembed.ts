@@ -30,7 +30,7 @@ export class RariEmbed extends LitElement {
   tokenId = "";
 
   @property({type: String})
-  width = "600px"
+  width = "700px"
 
   @property({type: String})
   height = "250px"

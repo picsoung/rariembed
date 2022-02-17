@@ -1,6 +1,6 @@
 {
   "name": "rariembed",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "A web component to embed a Rarible asset",
   "main": "rariembed.js",
   "module": "rariembed.js",
